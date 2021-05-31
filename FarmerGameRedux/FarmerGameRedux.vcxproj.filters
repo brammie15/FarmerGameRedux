@@ -1,27 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="GroundTile.cpp">
+    <ClCompile Include="src\GroundTile.cpp">
       <Filter>SourceFiles</Filter>
     </ClCompile>
-    <ClCompile Include="PlantTile.cpp">
+    <ClCompile Include="src\PlantTile.cpp">
       <Filter>SourceFiles</Filter>
     </ClCompile>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="src\Main.cpp">
       <Filter>SourceFiles</Filter>
     </ClCompile>
-    <ClCompile Include="SpriteUtils.cpp">
+    <ClCompile Include="src\SpriteUtils.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventory.cpp">
       <Filter>SourceFiles</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GroundTile.h">
+    <ClInclude Include="src\GroundTile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PlantTile.h">
+    <ClInclude Include="src\PlantTile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SpriteUtils.h">
+    <ClInclude Include="src\SpriteUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Inventory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

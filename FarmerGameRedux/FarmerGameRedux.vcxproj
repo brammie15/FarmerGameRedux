@@ -175,15 +175,18 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GroundTile.cpp" />
-    <ClCompile Include="PlantTile.cpp" />
-    <ClCompile Include="Source.cpp" />
-    <ClCompile Include="SpriteUtils.cpp" />
+    <ClCompile Include="src\GroundTile.cpp" />
+    <ClCompile Include="src\Inventory.cpp" />
+    <ClCompile Include="src\PlantTile.cpp" />
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\SpriteUtils.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GroundTile.h" />
-    <ClInclude Include="PlantTile.h" />
-    <ClInclude Include="SpriteUtils.h" />
+    <ClInclude Include="Enums.h" />
+    <ClInclude Include="src\GroundTile.h" />
+    <ClInclude Include="src\Inventory.h" />
+    <ClInclude Include="src\PlantTile.h" />
+    <ClInclude Include="src\SpriteUtils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
